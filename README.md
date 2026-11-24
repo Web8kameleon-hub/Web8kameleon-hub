@@ -225,8 +225,8 @@ flowchart TB
 WEB8 / CLISONIX ECOSYSTEM
 |
 |-- APPLICATIONS     Clisonix / OpenMind / Ocean / NeuCLX
-|-- RUNTIME          OS-CLX / NodeDB Fluid / Nanodecibel
-|-- INFRASTRUCTURE   Kloud / GRAM graph tooling
+|-- RUNTIME          OS-CLX / NodeDB Fluid / Nanodecibel / digital chips
+|-- INFRASTRUCTURE   Kloud / GRAM / GS26 / mesh research
 |-- PROCESSING       Lightning SPP / wwwmmm / MegaLayer
 `-- DISTRIBUTION     Rust crates / Python packages / SDK work
 ```
@@ -242,13 +242,25 @@ This portfolio map groups engineering areas; it is not a live deployment diagram
 | **Nanodecibel** | Fixed-point quality model | [Rust crate](https://crates.io/crates/clx-nanodecibel) |
 | **Lightning SPP / wwwmmm** | .NET document and image processing | [Source](https://github.com/Web8kameleon-hub/Lightning-SPP-3.14) · [Website](https://scanprocessprint.com/) |
 | **GRAM** | Graph nodes, search and ecosystem discovery work | Wider engineering portfolio |
+| **GS26** | ALBA data, graph and curriculum-related engine work | Wider engineering portfolio |
 | **MegaLayer** | Text analysis and numeric transformation work within Ocean | Wider engineering portfolio |
 | **NeuCLX** | Project within the wider portfolio | [Public repository](https://github.com/Web8kameleon-hub/neuclx) |
 | **Ultrawebthinking** | Browser and application work | [Public repository](https://github.com/Web8kameleon-hub/Ultrawebthinkig-v2) |
+| **Kloud / Clisonix Cloud** | Infrastructure and distributed mesh-oriented work | [Kloud](https://github.com/Kameleonlife/Kloud) · [Clisonix Cloud](https://github.com/Kameleonlife/Clisonix-cloud) |
+| **RehaConnect** | Application project | [Public repository](https://github.com/Web8kameleon-hub/rehaconnect) |
 
 NodeDB Fluid is described by its package as research software. GRAM and
 MegaLayer are represented here by work inspected in local project materials;
 their inclusion does not establish a verified distributed integration.
+
+### Digital chips and hardware research
+
+OS-CLX includes runtime chip concepts and software components spanning
+Stigma, Nanodecibel, Nanogrid, NodeDB Fluid and memory. The wider work also
+explores mesh-connected systems and mappings from software primitives to
+specialized hardware. These are different stages of work: runtime software
+and hardware research specifications should not be read as evidence that a
+fabricated chip or a hardware mesh has been independently verified.
 
 ## Published packages
 
