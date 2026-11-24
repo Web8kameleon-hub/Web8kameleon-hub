@@ -56,8 +56,8 @@
 ┌─ ledian@web8-kameleon ──────────────────────────────────────┐
 │                                                           │
 │  ROLE       Independent developer & product builder        │
-│  BASE       Bochum, Germany<br/>                             │
-│  COMPANY    ABA GmbH<br/>                                    │
+│  BASE       Bochum, Germany                               │
+│  COMPANY    ABA GmbH                                      │
 │  FOCUS      Connected applications and operational tools   │
 │                                                           │
 │  INTERFACE → API → SERVICE → RUNTIME → DEPLOYMENT           │
@@ -218,6 +218,49 @@ flowchart TB
 
 > Conceptual portfolio map. It groups areas of work; it is not a
 > live topology, deployment diagram, or guarantee of connectivity.
+
+## Engineering portfolio
+
+```text
+WEB8 / CLISONIX ECOSYSTEM
+|
+|-- APPLICATIONS     Clisonix / OpenMind / Ocean / NeuCLX
+|-- RUNTIME          OS-CLX / NodeDB Fluid / Nanodecibel
+|-- INFRASTRUCTURE   Kloud / GRAM graph tooling
+|-- PROCESSING       Lightning SPP / wwwmmm / MegaLayer
+`-- DISTRIBUTION     Rust crates / Python packages / SDK work
+```
+
+This portfolio map groups engineering areas; it is not a live deployment diagram.
+
+| Work | Scope | Explore |
+| :--- | :--- | :--- |
+| **WEB8** | Ecosystem and application work | [Public repository](https://github.com/Web8kameleon-hub/web8) |
+| **Clisonix / Ocean** | AI-facing applications and integration tooling | [Clisonix](https://www.clisonix.com/) · [Ocean Core on PyPI](https://pypi.org/project/clisonix-ocean-core/) |
+| **OS-CLX** | Runtime, operational interfaces and research components | [OS-CLX site](https://aiagi.io/) |
+| **NodeDB Fluid** | Deterministic scheduling reference model | [Rust crate](https://crates.io/crates/clx-nodedb-fluid) |
+| **Nanodecibel** | Fixed-point quality model | [Rust crate](https://crates.io/crates/clx-nanodecibel) |
+| **Lightning SPP / wwwmmm** | .NET document and image processing | [Source](https://github.com/Web8kameleon-hub/Lightning-SPP-3.14) · [Website](https://scanprocessprint.com/) |
+| **GRAM** | Graph nodes, search and ecosystem discovery work | Wider engineering portfolio |
+| **MegaLayer** | Text analysis and numeric transformation work within Ocean | Wider engineering portfolio |
+| **NeuCLX** | Project within the wider portfolio | [Public repository](https://github.com/Web8kameleon-hub/neuclx) |
+| **Ultrawebthinking** | Browser and application work | [Public repository](https://github.com/Web8kameleon-hub/Ultrawebthinkig-v2) |
+
+NodeDB Fluid is described by its package as research software. GRAM and
+MegaLayer are represented here by work inspected in local project materials;
+their inclusion does not establish a verified distributed integration.
+
+## Published packages
+
+| Registry | Package | What to inspect |
+| :--- | :--- | :--- |
+| **crates.io** | [clx-nodedb-fluid](https://crates.io/crates/clx-nodedb-fluid) | Scheduling reference model |
+| **crates.io** | [clx-nanodecibel](https://crates.io/crates/clx-nanodecibel) | Fixed-point quality model |
+| **PyPI** | [clisonix-ocean-core](https://pypi.org/project/clisonix-ocean-core/) | Ocean integration package |
+| **PyPI** | [clisonix-lab](https://pypi.org/project/clisonix-lab/) | Research-lab integration and health utilities |
+
+Package pages provide versions and installation instructions. Publication alone
+does not establish the status of every system a package references.
 
 ## > engineering approach
 
