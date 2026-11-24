@@ -274,6 +274,24 @@ fabricated chip or a hardware mesh has been independently verified.
 Package pages provide versions and installation instructions. Publication alone
 does not establish the status of every system a package references.
 
+## Algorithm and model work
+
+The ecosystem includes named computational models and algorithms, from
+operational scoring to scheduling and text analysis:
+
+| Model or algorithm area | What it does | Inspect |
+| :--- | :--- | :--- |
+| **Nanodecibel** | Calculates a deterministic fixed-point quality score from load, queue depth, latency and saturation. | [Published crate](https://crates.io/crates/clx-nanodecibel) |
+| **NodeDB Fluid** | Converts bounded quality, pressure and resonance signals into scheduling decisions. | [Published crate](https://crates.io/crates/clx-nodedb-fluid) |
+| **Stigma Core** | Maps operational signals into bounded control states for telemetry and scheduling. | OS-CLX software reference |
+| **TIDE Core** | Evaluates node rhythm and fabric signals to derive a coherence state. | OS-CLX software reference |
+| **MegaLayer** | Applies text-feature analysis and numeric transformations in an Ocean processing path. | Clisonix engineering work |
+| **GRAM / GS26** | Graph, search and data-processing work across the Clisonix ecosystem. | Clisonix engineering work |
+
+The OS-CLX reference models include experimental research software. The names
+identify work in the ecosystem; independent novelty, comparative performance
+and hardware acceleration are separate questions requiring evidence.
+
 ## > engineering approach
 
 ### Build the connection, not only the screen
